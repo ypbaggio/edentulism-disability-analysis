@@ -1,0 +1,27 @@
+variable,level,type,description,used_by
+participant_id,participant,string_or_numeric,Cohort-specific participant identifier,all participant-level models
+cohort,participant,string,Cohort name,all participant-level models
+share_country,participant,string,SHARE country and Not SHARE otherwise,one-stage models
+analysis_unit,participant,string,Cohort or SHARE country analysis unit,one-stage models
+interval_number,interval,integer,Sequential follow-up interval,all participant-level models
+analysis_time,interval,numeric,Person-time in years for the interval,all participant-level models
+first_disability,interval,binary,First incident basic ADL disability in the interval,all participant-level models
+death_before_disability,interval,binary,Death before observed disability in the interval,all participant-level models
+first_exit,interval,binary,First disability or death in the interval,all participant-level models
+edentulous,participant_or_time_updated,binary,No natural teeth,all participant-level models
+age_start,interval,numeric,Attained age at interval start,all participant-level models
+female,participant,binary,Sex indicator,all participant-level models
+education_raw,participant,numeric,Cohort-specific education measure before within-cohort standardization,primary MI models
+married_raw,participant,binary,Married or partnered indicator,primary MI models
+current_smoker_raw,participant,binary,Current smoking indicator,primary MI models
+comorbidity_count_raw,participant,numeric,Cohort-specific chronic-condition count,primary MI models
+education_z,participant,numeric,Within-cohort standardized education,one-stage models
+married_imp,participant,binary,Imputed married or partnered indicator,one-stage models
+smoker_imp,participant,binary,Imputed current smoking indicator,one-stage models
+comorbidity_z,participant,numeric,Within-cohort standardized chronic-condition count,one-stage models
+education_missing,participant,binary,Education missingness indicator,sensitivity models
+married_missing,participant,binary,Partner status missingness indicator,sensitivity models
+smoker_missing,participant,binary,Smoking missingness indicator,sensitivity models
+comorbidity_missing,participant,binary,Comorbidity missingness indicator,sensitivity models
+ipow,interval,numeric,Stabilized inverse probability of observation weight,weighted sensitivity models
+

@@ -1,0 +1,4 @@
+outcome,model,inference,log_irr,se,irr,lcl,ucl,p_value,wald_lcl,wald_ucl,n_people,n_events
+first_disability,cohort_RE_country_FE_cohort_age,"t distribution, 5 df",0.1620117453016873,0.020190371,1.175874,1.1164017,1.2385145,0.00048597169,1.1302506,1.2233392,86055,16975
+death_before_disability,cohort_RE_country_FE_cohort_age,"t distribution, 5 df",0.2129768540104257,0.021134973,1.2373561,1.1719249,1.3064402,0.0001647727,1.1871471,1.2896883,86055,11930
+first_exit,cohort_RE_country_FE_cohort_age,"t distribution, 5 df",0.1834383030082393,0.014593136,1.2013408,1.15711,1.2472625,5.6570534e-05,1.1674668,1.2361977,86055,28905

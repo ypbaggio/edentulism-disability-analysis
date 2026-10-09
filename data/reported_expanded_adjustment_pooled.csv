@@ -1,0 +1,2 @@
+level,estimand,estimand_label,age_model,adjustment,k,pooled_IRR,LCL,UCL,prediction_LCL,prediction_UCL,I2_percent,tau2_REML,p_pooled
+6 cohorts,first_disability,First incident ADL disability; death is a competing event,restricted_cubic_spline,Expanded,6,1.1210317638079934,1.0191641728033591,1.2330812336246975,0.95353538415039,1.317950268396389,51.38850576716821,0.0025897285627274154,0.027382486302004162

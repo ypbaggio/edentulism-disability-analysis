@@ -1,0 +1,4 @@
+level,estimand,estimand_label,age_model,adjustment,k,pooled_IRR,LCL,UCL,prediction_LCL,prediction_UCL,I2_percent,tau2_REML,p_pooled
+6 cohorts,death_before_disability,Death before incident ADL disability,restricted_cubic_spline,Multiple imputation,6,1.2344749417967567,1.0568938583746168,1.4418934974868105,0.8748183919241257,1.741993990972561,85.16683476819196,0.014297931767800446,0.017537456747208118
+6 cohorts,first_disability,First incident ADL disability; death is a competing event,restricted_cubic_spline,Multiple imputation,6,1.1732401984815337,1.061123076566904,1.2972034947976183,0.9659796129991672,1.424970615124333,59.469362380964135,0.0041913257036961344,0.009456540101747901
+6 cohorts,first_exit,First disability or death from baseline independence,restricted_cubic_spline,Multiple imputation,6,1.187195368231683,1.0751156466644742,1.3109592877040714,0.9470793773279206,1.488188715846944,80.56055977979746,0.006239036492232546,0.006714301777966568
